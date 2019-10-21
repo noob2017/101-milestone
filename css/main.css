@@ -1,0 +1,54 @@
+/*** BASE STYLES ***/
+
+/*
+    font-family: 'Comfortaa', cursive;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+
+    font-family: 'Poiret One', cursive;
+
+    font-family: 'Gruppo', cursive;
+*/
+
+body {
+	width: 1200px;
+}
+
+
+/*** HEADER ***/
+
+header {
+	background-color: #EBEBEB; /***(https://www.w3schools.com/cssref/pr_background-image.asp) Color should always be specified 
+    in case image doesn't display***/
+	background-image: url('../img/jeremy-thomas-4dpAqfTbvKA-unsplash.jpg');
+	/*Photo by Jeremy Thomas on Unsplash*/
+	background-size: cover;
+    height: 400px;
+}
+
+/*img {
+	width: 1200px;
+}*/
+
+header h1 {
+	color: white;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+}
+
+header h2 {
+	color: white;
+	font-family: 'Gruppo', cursive;
+}
+
+header h3 {
+	color: white;
+	font-family: 'Comfortaa', cursive;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	/*font-family: 'Roboto', sans-serif;*/
+}
