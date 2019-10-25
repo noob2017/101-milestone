@@ -34,13 +34,19 @@
 */
 
 body {
+	color: #ffffff;
 	width: 1200px;
 }
 
 .full-width {
+	margin: 0px auto;
 	width: 1200px;
 }
 
+.half-width {
+    float: left;
+    width: 600px;
+}
 
 /*** HEADER ***/
 
@@ -61,7 +67,6 @@ header {
 }*/
 
 header h1 {
-	color: white;
 	/*font-family: 'Poiret One', cursive;*/
 	/*font-family: 'Michroma', sans-serif;*/
 	/*font-family: 'Orbitron', sans-serif;*/
@@ -74,25 +79,21 @@ header h1 {
 }
 
 header h2 {
-	color: white;
 	/*font-family: 'Gruppo', cursive;*/
 	/*font-family: 'Montserrat Alternates', sans-serif;*/
 	font-family: 'Questrial', sans-serif;
 }
 
 header h3 {
-	color: white;
 	/*font-family: 'Comfortaa', cursive;*/
 	font-family: 'Roboto', sans-serif;
 }
 
 header h4 {
-	color: white;
 	font-family: 'Josefin Sans', sans-serif;
 }
 
 header h5 {
-	color: white;
 	font-family: 'Questrial', sans-serif;
 }
 
@@ -139,6 +140,7 @@ nav ul li a {
 #about {
 	background-color: #e0ccff;
 	background-size: cover;
+	color: #202060;
 	height: 700px;
 	margin: 0px;
 	padding: 50px;
