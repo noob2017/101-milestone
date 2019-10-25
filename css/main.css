@@ -50,7 +50,8 @@ header {
 	background-image: url('../img/jeremy-thomas-4dpAqfTbvKA-unsplash.jpg');
 	/*Photo by Jeremy Thomas on Unsplash*/
 	background-size: cover;
-    height: 400px;
+    height: 500px;
+    margin: 0px;
     padding: 50px;
     text-align: center;
 }
@@ -105,6 +106,7 @@ p {
 
 nav {
     float: right; 
+    margin: 0px;
     /*padding: 75px 25px;*/
 }
 
@@ -123,25 +125,34 @@ nav ul li a {
 /***** WORK *****/
 
 #work {
-	background-color: #290066;
+	background-color: #202060;
+	background-size: cover;
 	color: #ffffff;
 	height: 800px;
+	margin: 0px;
+    padding: 50px;
+    text-align: center;
 }
 
 /***** ABOUT *****/
 
 #about {
 	background-color: #e0ccff;
-	height: 400px;
+	background-size: cover;
+	height: 500px;
+	margin: 0px;
+	padding: 50px;
+	text-align: center;
 }
 
-/***** CONTACT *****/
+/***** FOOTER / CONTACT *****/
 
-
-/***** FOOTER *****/
-
-#footer {
-	background-color: #290066; 
+#contact {
+	background-color: #202060; 
+	background-size: cover;
 	color: #ffffff;
 	height: 200px;
+	margin: 0px;
+	padding: 50px;
+	text-align: center;
 }
