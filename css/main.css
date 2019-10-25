@@ -7,12 +7,37 @@
 
     font-family: 'Roboto', sans-serif;
 
-    font-family: 'Poiret One', cursive;
+    - font-family: 'Poiret One', cursive;
 
-    font-family: 'Gruppo', cursive;
+    - font-family: 'Gruppo', cursive;
+
+    - font-family: 'Muli', sans-serif;
+
+	font-family: 'Josefin Sans', sans-serif;
+
+	font-family: 'Questrial', sans-serif;
+
+	- font-family: 'Satisfy', cursive; 
+
+	- font-family: 'Orbitron', sans-serif;
+
+	- font-family: 'Poiret One', cursive;
+
+	- font-family: 'Montserrat Alternates', sans-serif;
+
+	- font-family: 'Audiowide', cursive;
+
+	- font-family: 'Michroma', sans-serif;
+
+	- font-family: 'Fugaz One', cursive;
+
 */
 
 body {
+	width: 1200px;
+}
+
+.full-width {
 	width: 1200px;
 }
 
@@ -26,6 +51,8 @@ header {
 	/*Photo by Jeremy Thomas on Unsplash*/
 	background-size: cover;
     height: 400px;
+    padding: 50px;
+    text-align: center;
 }
 
 /*img {
@@ -34,19 +61,40 @@ header {
 
 header h1 {
 	color: white;
-	font-family: 'Poiret One', cursive;
+	/*font-family: 'Poiret One', cursive;*/
+	/*font-family: 'Michroma', sans-serif;*/
+	/*font-family: 'Orbitron', sans-serif;*/
+	/*font-family: 'Audiowide', cursive;*/
+	/*font-family: 'Fugaz One', cursive;*/
+	/*font-family: 'Muli', sans-serif;*/
+	/*font-family: 'Questrial', sans-serif;*/
+	font-family: 'Josefin Sans', sans-serif;
 	font-weight: bold;
 }
 
 header h2 {
 	color: white;
-	font-family: 'Gruppo', cursive;
+	/*font-family: 'Gruppo', cursive;*/
+	/*font-family: 'Montserrat Alternates', sans-serif;*/
+	font-family: 'Questrial', sans-serif;
 }
 
 header h3 {
 	color: white;
-	font-family: 'Comfortaa', cursive;
+	/*font-family: 'Comfortaa', cursive;*/
+	font-family: 'Roboto', sans-serif;
 }
+
+header h4 {
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+header h5 {
+	color: white;
+	font-family: 'Questrial', sans-serif;
+}
+
 
 p {
 	font-family: 'Open Sans', sans-serif;
@@ -60,14 +108,40 @@ nav {
     /*padding: 75px 25px;*/
 }
 
-nav ul li{
+nav ul li {
     display: inline-block;
 }
 
 nav ul li a {
-    color: #828282;
+    color: #ffffff;;
     font-size: 18px;
     text-transform: uppercase;
     text-decoration: none;
     padding-left: 80px; 
+}
+
+/***** WORK *****/
+
+#work {
+	background-color: #290066;
+	color: #ffffff;
+	height: 800px;
+}
+
+/***** ABOUT *****/
+
+#about {
+	background-color: #e0ccff;
+	height: 400px;
+}
+
+/***** CONTACT *****/
+
+
+/***** FOOTER *****/
+
+#footer {
+	background-color: #290066; 
+	color: #ffffff;
+	height: 200px;
 }
