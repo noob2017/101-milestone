@@ -50,8 +50,15 @@ body {
 
 /*** HEADER ***/
 
+#nav-bar {
+	background-color: #202060;
+	height: 50px;
+	margin: 0px;
+	padding: 0px;
+}
+
 header {
-	background-color: #EBEBEB; /***(https://www.w3schools.com/cssref/pr_background-image.asp) Color should always be specified 
+	background-color: #202060; /***(https://www.w3schools.com/cssref/pr_background-image.asp) Color should always be specified 
     in case image doesn't display***/
 	background-image: url('../img/jeremy-thomas-4dpAqfTbvKA-unsplash.jpg');
 	/*Photo by Jeremy Thomas on Unsplash*/
@@ -106,7 +113,9 @@ p {
 /***** NAV *****/
 
 nav {
+    background-color: #202060;
     float: right; 
+    height: 50px;
     margin: 0px;
     /*padding: 75px 25px;*/
 }
@@ -116,7 +125,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #ffffff;;
+    color: #ffffff;
     font-size: 18px;
     text-transform: uppercase;
     text-decoration: none;
