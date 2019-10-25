@@ -63,15 +63,13 @@ header {
 	background-image: url('../img/jeremy-thomas-4dpAqfTbvKA-unsplash.jpg');
 	/*Photo by Jeremy Thomas on Unsplash*/
 	background-size: cover;
+	font-size: 25px;
+	line-height: 75px;
     height: 500px;
     margin: 0px;
     padding: 50px;
     text-align: center;
 }
-
-/*img {
-	width: 1200px;
-}*/
 
 header h1 {
 	/*font-family: 'Poiret One', cursive;*/
@@ -86,36 +84,6 @@ header h1 {
 	text-align: left;
 }
 
-header h2 {
-	/*font-family: 'Gruppo', cursive;*/
-	/*font-family: 'Montserrat Alternates', sans-serif;*/
-	font-family: 'Questrial', sans-serif;
-	text-align: left;
-}
-
-header h3 {
-	/*font-family: 'Comfortaa', cursive;*/
-	font-family: 'Roboto', sans-serif;
-	text-align: left;
-}
-
-header h4 {
-	font-family: 'Josefin Sans', sans-serif;
-	text-align: left;
-}
-
-header h5 {
-	font-family: 'Questrial', sans-serif;
-	text-align: left;
-}
-
-
-header p {
-	font-family: 'Open Sans', sans-serif;
-	/*font-family: 'Roboto', sans-serif;*/
-	text-align: left;
-}
-
 /***** NAV *****/
 
 nav {
@@ -123,7 +91,7 @@ nav {
     float: right; 
     height: 50px;
     margin: 0px;
-    /*padding: 75px 25px;*/
+    /*padding: 0px 25px 0px 0px;*/
 }
 
 nav ul li {
@@ -132,10 +100,10 @@ nav ul li {
 
 nav ul li a {
     color: #ffffff;
-    font-size: 18px;
+    font-size: 16px;
     text-transform: uppercase;
     text-decoration: none;
-    padding-left: 80px; 
+    padding-left: 100px;
 }
 
 /***** WORK *****/
@@ -164,6 +132,36 @@ nav ul li a {
 
 #about img {
 	height: 200px;
+}
+
+#about h2 {
+	/*font-family: 'Gruppo', cursive;*/
+	/*font-family: 'Montserrat Alternates', sans-serif;*/
+	font-family: 'Questrial', sans-serif;
+	text-align: left;
+}
+
+#about h3 {
+	/*font-family: 'Comfortaa', cursive;*/
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+}
+
+#about h4 {
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: left;
+}
+
+#about h5 {
+	font-family: 'Questrial', sans-serif;
+	text-align: left;
+}
+
+
+#about p {
+	font-family: 'Open Sans', sans-serif;
+	/*font-family: 'Roboto', sans-serif;*/
+	text-align: left;
 }
 
 /***** FOOTER / CONTACT *****/
