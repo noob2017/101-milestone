@@ -51,14 +51,14 @@ body {
 /*** HEADER ***/
 
 #nav-bar {
-	background-color: #202060;
+	background-color: #000033;
 	height: 50px;
 	margin: 0px;
 	padding: 0px;
 }
 
 header {
-	background-color: #202060; /***(https://www.w3schools.com/cssref/pr_background-image.asp) Color should always be specified 
+	background-color: #000033; /***(https://www.w3schools.com/cssref/pr_background-image.asp) Color should always be specified 
     in case image doesn't display***/
 	background-image: url('../img/jeremy-thomas-4dpAqfTbvKA-unsplash.jpg');
 	/*Photo by Jeremy Thomas on Unsplash*/
@@ -76,44 +76,50 @@ header {
 header h1 {
 	/*font-family: 'Poiret One', cursive;*/
 	/*font-family: 'Michroma', sans-serif;*/
-	/*font-family: 'Orbitron', sans-serif;*/
+	font-family: 'Orbitron', sans-serif;
 	/*font-family: 'Audiowide', cursive;*/
 	/*font-family: 'Fugaz One', cursive;*/
 	/*font-family: 'Muli', sans-serif;*/
 	/*font-family: 'Questrial', sans-serif;*/
-	font-family: 'Josefin Sans', sans-serif;
+	/*font-family: 'Josefin Sans', sans-serif;*/
 	font-weight: bold;
+	text-align: left;
 }
 
 header h2 {
 	/*font-family: 'Gruppo', cursive;*/
 	/*font-family: 'Montserrat Alternates', sans-serif;*/
 	font-family: 'Questrial', sans-serif;
+	text-align: left;
 }
 
 header h3 {
 	/*font-family: 'Comfortaa', cursive;*/
 	font-family: 'Roboto', sans-serif;
+	text-align: left;
 }
 
 header h4 {
 	font-family: 'Josefin Sans', sans-serif;
+	text-align: left;
 }
 
 header h5 {
 	font-family: 'Questrial', sans-serif;
+	text-align: left;
 }
 
 
-p {
+header p {
 	font-family: 'Open Sans', sans-serif;
 	/*font-family: 'Roboto', sans-serif;*/
+	text-align: left;
 }
 
 /***** NAV *****/
 
 nav {
-    background-color: #202060;
+    background-color: #000033;
     float: right; 
     height: 50px;
     margin: 0px;
@@ -135,7 +141,7 @@ nav ul li a {
 /***** WORK *****/
 
 #work {
-	background-color: #202060;
+	background-color: #debad6; /*000033*/
 	background-size: cover;
 	color: #ffffff;
 	height: 800px;
@@ -147,9 +153,9 @@ nav ul li a {
 /***** ABOUT *****/
 
 #about {
-	background-color: #e0ccff;
+	background-color: #9886ae;
 	background-size: cover;
-	color: #202060;
+	color: #000033;
 	height: 700px;
 	margin: 0px;
 	padding: 50px;
@@ -163,7 +169,7 @@ nav ul li a {
 /***** FOOTER / CONTACT *****/
 
 #contact {
-	background-color: #202060; 
+	background-color: #000033; 
 	background-size: cover;
 	color: #ffffff;
 	height: 200px;
