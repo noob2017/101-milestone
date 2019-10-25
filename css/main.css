@@ -139,10 +139,14 @@ nav ul li a {
 #about {
 	background-color: #e0ccff;
 	background-size: cover;
-	height: 500px;
+	height: 700px;
 	margin: 0px;
 	padding: 50px;
 	text-align: center;
+}
+
+#about img {
+	height: 200px;
 }
 
 /***** FOOTER / CONTACT *****/
