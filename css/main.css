@@ -84,6 +84,13 @@ header h1 {
 	text-align: left;
 }
 
+header h2 {
+	/*font-family: 'Muli', sans-serif;*/
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	text-align: left;
+}
+
 /***** NAV *****/
 
 nav {
@@ -116,6 +123,23 @@ nav ul li a {
 	margin: 0px;
     padding: 50px;
     text-align: center;
+}
+
+#row-1 {
+	background-color: pink;
+	height: 200px;
+}
+
+#row-2 {
+	background-color: blue;
+}
+
+#row-3 {
+	background-color: purple;
+}
+
+#row-4 {
+	background-color: grey;
 }
 
 /***** ABOUT *****/
