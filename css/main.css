@@ -128,18 +128,25 @@ nav ul li a {
 #row-1 {
 	background-color: pink;
 	height: 200px;
+	width: 1075px;
 }
 
 #row-2 {
 	background-color: blue;
+	height: 200px;
+	width: 1075px;
 }
 
 #row-3 {
 	background-color: purple;
+	height: 200px;
+	width: 1075px;
 }
 
 #row-4 {
 	background-color: grey;
+	height: 200px;
+	width: 1075px;
 }
 
 /***** ABOUT *****/
