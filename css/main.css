@@ -1,5 +1,7 @@
 /*** BASE STYLES ***/
 
+/*** ? - OVERALL SITE IS PUSHED TO THE LEFT WITH WHITE SPACE TO RIGHT...? ***/
+
 body {
 	color: #ffffff;
 	width: 1200px;
@@ -16,6 +18,8 @@ body {
 }
 
 /***** NAV *****/
+
+/*** ? - SEEMS LIKE THIS CAN BE CONSOLIDATED...?***/
 
 nav {
     background-color: #000033;
@@ -39,6 +43,7 @@ nav ul li a {
 
 #nav-bar {
 	background-color: #000033;
+	font-family: 'Montserrat', sans-serif;
 	height: 50px;
 	margin: 0px;
 	padding: 0px;
@@ -58,6 +63,9 @@ nav ul li a {
 
 /*** HEADER ***/
 
+/*** ? - HOW TO PUSH TEXT DOWN A BIT...? ***/
+/*** ? - HOW TO GET IMAGE TO FILL FIRST SCREEN...? ***/
+
 header {
 	background-color: #000033; /***(https://www.w3schools.com/cssref/pr_background-image.asp) Color should always be specified 
     in case image doesn't display***/
@@ -74,22 +82,33 @@ header {
 
 header h1 {
 	font-family: 'Orbitron', sans-serif;
-	font-weight: bold;
+	font-size: 60px;
+	font-weight: normal;
+	padding: 50px 0px 0px 0px;
 	text-align: left;
+	white-space: nowrap;
 }
 
 header h2 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	/*font-family: 'Open Sans', sans-serif;*/
 	font-size: 30px;
+	font-weight: bold;
 	text-align: left;
 }
 
 /***** WORK *****/
 
+/*** ? - BLOCKS SEEM CENTERED, BUT HEADER SEEMS SLIGHTLY TO RIGHT...? ***/
+/*** ? - FULL WIDTH DIV SEEMS SKEWED TO THE RIGHT...? MARGIN / PADDING...? ***/
+/*** ? - HOW TO ADD WORK SAMPLES...? SCREENSHOTS? LINKS? ***/
+/*** COLORED BLOCKS ARE PLACEHOLDERS FOR EASIER VIEWING OF SECTIONS. REMOVE WHEN COMPLETE. ***/
+
 #work {
 	background-color: #debad6; /*000033*/
 	background-size: cover;
 	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
 	height: 800px;
 	margin: 0px;
     padding: 50px;
@@ -120,57 +139,60 @@ header h2 {
 	width: 1075px;
 }
 
+#work h2 {
+	font-family: 'Orbitron', sans-serif;
+}
+
 /***** ABOUT *****/
+
+/*** ? - HEADER AND BIO PIC SEEM SLIGHTLY TO RIGHT...? ***/
+/*** ? - FULL WIDTH DIV SEEMS SKEWED TO THE RIGHT...? MARGIN / PADDING...? ***/
+/*** ? - TEXT SPILLS OUTSIDE OF COLORED BOX...? ***/
+/*** EDIT THIS CONTENT! ***/
+/*** COLORED BLOCKS ARE PLACEHOLDERS FOR EASIER VIEWING OF SECTIONS. REMOVE WHEN COMPLETE. ***/
 
 #about {
 	background-color: #9886ae;
 	background-size: cover;
 	color: #000033;
+	font-family: 'Montserrat', sans-serif;
 	height: 700px;
 	margin: 0px;
 	padding: 50px;
 	text-align: center;
 }
 
+#about h2 {
+	font-family: 'Orbitron', sans-serif;
+}
+
 #about img {
 	height: 200px;
 }
 
-/*#about h2 {
-	font-family: 'Questrial', sans-serif;
-	text-align: left;
-}
-
-#about h3 {
-	font-family: 'Roboto', sans-serif;
-	text-align: left;
-}
-
-#about h4 {
-	font-family: 'Josefin Sans', sans-serif;
-	text-align: left;
-}
-
-#about h5 {
-	font-family: 'Questrial', sans-serif;
-	text-align: left;
-}
-*/
-
-
 #about p {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	text-align: left;
 }
 
 /***** FOOTER / CONTACT *****/
 
+/*** ? - HEADER AND BIO PIC SEEM SLIGHTLY TO RIGHT...? ***/
+/*** ? - FULL WIDTH DIV SEEMS SKEWED TO THE RIGHT...? MARGIN / PADDING...? ***/
+/*** EDIT THIS CONTENT! ***/
+/*** MAKE SURE THIS BOX COLOR MATCHES NAV BAR ***/
+
 #contact {
 	background-color: #000033; 
 	background-size: cover;
 	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
 	height: 200px;
 	margin: 0px;
 	padding: 50px;
 	text-align: center;
+}
+
+#contact h2 {
+	font-family: 'Orbitron', sans-serif;
 }
