@@ -107,7 +107,7 @@ header h2 {
 #work {
 	background-color: #debad6; /*000033*/
 	background-size: cover;
-	color: #ffffff;
+	color: #000033;
 	font-family: 'Montserrat', sans-serif;
 	height: 800px;
 	margin: 0px;
@@ -141,6 +141,7 @@ header h2 {
 
 #work h2 {
 	font-family: 'Orbitron', sans-serif;
+	font-size: 36px;
 }
 
 /***** ABOUT *****/
@@ -155,7 +156,6 @@ header h2 {
 	background-color: #9886ae;
 	background-size: cover;
 	color: #000033;
-	font-family: 'Montserrat', sans-serif;
 	height: 700px;
 	margin: 0px;
 	padding: 50px;
@@ -164,6 +164,7 @@ header h2 {
 
 #about h2 {
 	font-family: 'Orbitron', sans-serif;
+	font-size: 36px;
 }
 
 #about img {
@@ -186,7 +187,6 @@ header h2 {
 	background-color: #000033; 
 	background-size: cover;
 	color: #ffffff;
-	font-family: 'Montserrat', sans-serif;
 	height: 200px;
 	margin: 0px;
 	padding: 50px;
@@ -195,4 +195,5 @@ header h2 {
 
 #contact h2 {
 	font-family: 'Orbitron', sans-serif;
+	font-size: 36px;
 }
